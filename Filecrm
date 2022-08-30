@@ -1,6 +1,4 @@
 System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
-		Point point = driver.manage().window().getPosition();
-		System.out.println("startX="+point.getX());
-		System.out.println("StartY="+point.getY());
+		
